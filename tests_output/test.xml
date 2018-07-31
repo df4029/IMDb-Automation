@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.008000" timestamp="Tue, 31 Jul 2018 20:44:55 GMT">
+  
+    <testcase name="Sign In, Change Name, Change Password" classname="test" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Sign In, Change Name, Change Password]:
+
+  Error: changeNameSuccess was not found in &#34;IMDb&#34;. Available elements: signInButton,dropDown,siteSettings,logout,IMDbSignIn,IMDbEmailInput,IMDbPasswordInput,IMDbSubmit,changeYourName,changeYourEmail,changeYourPassword,changeNameInput,changeNameButton,success,currentPassword,newPassword,reenterPassword,passwordSaveButton
+    at getElement (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.waitForElementVisible (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at Object.Sign In, Change Name, Change Password (C:\Users\North\Documents\DevMountain\IMDb\tests\test.js:43:10)
+    at Module.call (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\North\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
