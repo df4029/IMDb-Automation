@@ -78,5 +78,6 @@ module.exports = {
         .setValue('@IMDbPasswordInput', inputData.newpw)
         .click('@IMDbSubmit')
         .waitForElementVisible('@dropDown', 10000)
+        //FG204, 2nd Edition Ver. 2.31
     }
 }
