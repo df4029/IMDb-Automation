@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="3">
+
+  <testsuite name="watchList"
+    errors="1" failures="1" hostname="" id="" package="watchList" skipped="1"
+    tests="3" time="27.55" timestamp="Thu, 02 Aug 2018 18:10:12 GMT">
+  
+    <testcase name="logIn" classname="watchList" time="12.82" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="SidePane create a new list" classname="watchList" time="14.73" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;div.lister-item-content&gt; to be present for 3000 milliseconds.">    at Object.SidePane create a new list (C:\Users\Maximus Prime\Desktop\QA-Mountain\IMDb-Automation\tests\watchList.js:60:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;//span[text()=&#34;A.I. Artificial Intelligence&#34;]&#34; using: xpath
+    at Page.click (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:117:25)
+    at Object.SidePane create a new list (C:\Users\Maximus Prime\Desktop\QA-Mountain\IMDb-Automation\tests\watchList.js:59:14)
+    at Module.call (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Maximus Prime\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="test feedback" classname="watchList">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
