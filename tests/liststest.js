@@ -21,7 +21,7 @@ module.exports = {
         browser.end()
     },
     
-    //using Bryen's code to login
+    //using Bryen's code to login, DF
     'Sign In, Go to Lists, Make List of Godfather Movies. DF': browser => {
         IMDb
         //Sign In
